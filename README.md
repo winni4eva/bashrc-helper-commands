@@ -134,7 +134,7 @@ alias appRT='ssh ubuntu@app.retailtower.com'
 alias devRT='ssh ubuntu@dev.retailtower.com'
 alias schRT='ssh ubuntu@odwumayefo.retailtower.com'
 
-export RT_ROOT="/home/michael/www/retailtower"
+export RT_ROOT="/home/adam"
 
 # export RT_ROOT=“/users/michael/Sites/retailtower"
 
@@ -194,16 +194,6 @@ alias pu="vendor/bin/phpunit"
 alias puc="vendor/bin/phpunit --coverage-html dir"
 alias laravel="~/.config/composer/vendor/bin/laravel"
 alias rtbuild="cd retailtowerpro-frontend/ && ng build --env=prod && cd .. && gulp"
-
-# Install Ruby Gems to ~/gems
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/adam/google-cloud-sdk/path.bash.inc' ]; then . '/home/adam/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/adam/google-cloud-sdk/completion.bash.inc' ]; then . '/home/adam/google-cloud-sdk/completion.bash.inc'; fi
 
 alias python="python3"
 
